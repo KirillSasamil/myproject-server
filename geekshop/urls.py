@@ -21,7 +21,7 @@ from products.views import index, products, test_context
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
-    path('products/', products, name='index'),
+    path('products/', products, name='products'),
     path('test-context/', test_context, name='test-context'),
 
 ]
